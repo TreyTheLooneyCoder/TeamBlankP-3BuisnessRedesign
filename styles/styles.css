@@ -30,6 +30,10 @@
     font-weight: 600;
 }
 
+.weight700{
+    font-weight: 700;
+}
+
 /* Font sizes End */
 
 .containerHead{
@@ -51,12 +55,14 @@
     color: white;
 }
 
-.navbar {
-    margin-top: -10px;
-}
-
-.container-fluid{
+.topnav{
+    font-family: 'Inter Variable', 'sans-serif';
+    display: flex;
+    justify-content: center;
+    gap: 352px;
+    color: white;
     background-color: #823F00;
     height: 34px;
-    align-content: start;
+    overflow: hidden;
 }
+
