@@ -3,13 +3,41 @@
     src: url(/Fonts/Inter-VariableFont_opsz\,wght.ttf);
 }
 
-.containerHead{
+.flex-container{
+    display: flex;
+}
+
+.fluid-container{
+    display: fluid;
+}
+
+.justify-content{
     display: flex;
     justify-content: center;
+}
+
+/* Font sizes Start */
+
+.size36{
+    font-size: 36px;
+}
+
+.weight600{
+    font-weight: 600;
+}
+
+/* Font sizes End */
+
+.containerHead{
     font-family: 'Inter Variable', 'sans-serif';
     color: white;
-    max-width: 1440px;
+    text-align: center;
+    max-width: 100%;
     height: 83px;
     background-color: #AA0000;
+    align-content: center;
+}
+
+.h{
     
 }
