@@ -3,6 +3,10 @@
     src: url(/Fonts/Inter-VariableFont_opsz\,wght.ttf);
 }
 
+.body-background{
+    
+}
+
 .flex-container{
     display: flex;
 }
@@ -38,6 +42,12 @@
     align-content: center;
 }
 
-.h{
-    
+.containerNav{
+    font-family: 'Inter Variable', 'sans-serif';
+    color: white;
+    text-align: center;
+    max-width: 100%;
+    height: 34px;
+    background-color: #823F00;
+    align-content: center;
 }
