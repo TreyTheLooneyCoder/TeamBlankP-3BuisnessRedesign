@@ -1,0 +1,15 @@
+@font-face{
+    font-family: 'Inter Variable';
+    src: url(/Fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+.containerHead{
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter Variable', 'sans-serif';
+    color: white;
+    max-width: 1440px;
+    height: 83px;
+    background-color: #AA0000;
+    
+}
