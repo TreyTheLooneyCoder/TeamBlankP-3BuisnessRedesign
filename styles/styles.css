@@ -23,12 +23,12 @@
 
 .main-grid{
     display: grid;
-    grid-template-columns:  repeat( auto-fit, minmax(400px, 1fr));
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    height: auto;
     color: white;
     font-family: 'Inter Variable', 'sans-serif';
-    gap: 50px;
+    gap: 15px;
     padding: 15px 50px 0px 50px;
-    
 }
 
 .gap{
@@ -104,7 +104,6 @@
 
 .divColor{
     background-color: #823F00;
-    
     justify-content: space-evenly;
     gap: 352px;
 }
@@ -115,8 +114,15 @@
 }
 
 footer{
+    color: white;
     background-color: #823F00;
-    max-width: 100%;
+    max-width: auto;
+    height: auto;
+    padding-bottom: 18px;
+}
+
+.cText{
+    padding-left: 40px;
 }
 
 /* Images S */
@@ -127,4 +133,35 @@ footer{
     object-fit: cover;
 }
 
+.FBimage{
+    float: right;
+    padding-right: 40px;
+    
+}
+
 /* Images E */
+
+/* Phone Screen 425px S */
+
+@media screen and (max-width: 430px) {
+    
+    .main-grid{
+        display: grid;
+        grid-template-columns: repeat( auto-fit, minmax(400px, 1fr));;
+        height: auto;
+        color: white;
+        font-family: 'Inter Variable', 'sans-serif';
+        
+    padding: 15px 50px 0px 50px;
+    }
+
+
+
+
+}
+
+
+
+
+
+/* Phone Screen 425px E */
