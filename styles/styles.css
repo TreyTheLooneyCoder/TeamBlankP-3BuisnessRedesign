@@ -21,6 +21,16 @@
     justify-content: center;
 }
 
+.justify-content-evenly{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.gap{
+    gap: 352px;
+}
+
 /* Font sizes Start */
 
 .size20{
@@ -78,6 +88,81 @@
     height: 34px;
     overflow: hidden;
 }
+
+.navbar{
+    max-height: 34px;
+}
+
+.navbar-nav{
+    justify-content: space-evenly;
+    gap: 352px;
+}
+
+.divColor{
+    background-color: #823F00;
+    justify-content: space-evenly;
+    gap: 352px;
+}
+
+.nav-link{
+    font-family: 'Inter Variable', 'sans-serif';
+    color: white;
+}
+
+footer{
+    color: white;
+    background-color: #823F00;
+    max-width: auto;
+    height: auto;
+    padding-bottom: 18px;
+}
+
+.cText{
+    padding-left: 40px;
+}
+
+/* Images S */
+
+.backImage{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.FBimage{
+    width: 20px;
+    height: 33px;
+    float: right;
+    padding-right: 40px;
+    
+}
+
+/* Images E */
+
+/* Phone Screen 425px S */
+
+@media screen and (max-width: 430px) {
+    
+    .main-grid{
+        display: grid;
+        grid-template-columns: repeat( auto-fit, minmax(400px, 1fr));;
+        height: auto;
+        color: white;
+        font-family: 'Inter Variable', 'sans-serif';
+        
+    padding: 15px 50px 0px 50px;
+    }
+
+
+
+
+}
+
+
+
+
+
+/* Phone Screen 425px E */
 
 .specials-container{
     background-color: #00000090; 
