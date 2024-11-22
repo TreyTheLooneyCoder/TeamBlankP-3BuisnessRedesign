@@ -313,11 +313,13 @@ h4, h5, p {
         background-repeat: no-repeat; 
         background-size: 0%;
         background-color: black;
+        
     }
     
     .menu-nav {
         grid-row: 1;
         grid-column: 1;
+        max-width: 800px;
     }
     
     .scroll-container {
@@ -364,6 +366,88 @@ h4, h5, p {
         top: 1720px;
     }
     
+}
+
+@media screen and (max-width: 800px) {
+    .at-1000-px {
+        margin-left: 100px;
+        margin-right: 0px;
+        max-width: 50%;
+    }
+
+    .containerHead{
+        text-align: start;
+        max-width: 80%;
+    }
+
+    .topnav{
+        max-width: 80%;
+    }
+
+    .delivainer{
+        top: 10px;
+        right: 10px;
+    }
+
+    .menu-body {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 5% 1fr 1fr 10%;
+        background-image: none; 
+        background-repeat: no-repeat; 
+        background-size: 0%;
+        background-color: black;
+        max-width: 800px;
+    }
+    
+    .menu-nav {
+        grid-row: 1;
+        grid-column: 1;
+    }
+    
+    .scroll-container {
+        grid-row: 3;
+        grid-column: 1 / 2; 
+        margin-top: 0%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        margin-bottom: 1.5%;
+        height: 900px;
+        width: 85%;
+        padding: 2%;
+        position: absolute;
+        top: 810px;
+    }
+    
+    .our-menu { 
+        margin-top: 0%;
+        margin-left: 10%;
+        margin-bottom: 0%;
+        width: 80%;
+        height: 100%;
+    }
+    
+    .for-menu-respose {
+        background-image: url(../assets/bamboo.webp);
+        background-repeat: no-repeat;
+        margin-top: 4%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        width: 80%;
+    }
+    .menu-anchors {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .menu-footer {
+        grid-row: 4;
+        grid-column: 1 / 2;
+        position:absolute;
+        top: 1720px;
+    }
+
 }
 
 /* Menu Page CSS End */
