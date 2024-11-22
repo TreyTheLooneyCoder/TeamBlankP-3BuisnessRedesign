@@ -15,35 +15,38 @@
 
     <!--Header-->
     <div class="menu-nav">
-        <div class="fluid-container containerHead d-flex justify-content-between">
-            <p class="size36 weight600 after-400px"><i>Matsuyama Restaurant</i></p>
-            <div class="delivainer size20 weight600 menu-nav-response">
+      <div class="container-fluid containerHead">
+          <div class="row">
+              <div class="col-2"></div>
+              <p class="size36 weight600 col-8"><i>Matsuyama Restaurant</i></p>
+              <div class="menu-nav-response col">
               <u><i>>>> We offer delivery and pickup through DoorDash</i></u>
+              </div>
+          </div>
+        </div>
+        <nav class="navbar navbar-expand-lg divColor p-0">
+          <div class="container-fluid">
+            <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+              <ul class="navbar-nav size20 weight700">
+                <li class="nav-item d-flex justify-content-center">
+                  <a class="nav-link" href="../index.html"><i>Home</i></a>
+                </li>
+                <li class="nav-item d-flex justify-content-center">
+                  <a class="nav-link" href="../pages/Menu.html"><i>Menu</i></a>
+                </li>
+                <li class="nav-item d-flex justify-content-center">
+                  <a class="nav-link" href="../pages/specials.html"><i>SPECIALS</i></a>
+                </li>
+              </ul>
             </div>
           </div>
-          <nav class="navbar navbar-expand-lg divColor" style="max-height: 55px;" >
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-evenly" id="navbarNav">
-                <ul class="navbar-nav size20 weight700">
-                  <li class="nav-item">
-                    <a class="nav-link" href="../index.html"><i>Home</i></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/Menu.html"><i>Menu</i></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/specials.html"><i>SPECIALS</i></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-    </div>
-    <!--Header-->
+        </nav>
+  </div>
+  <!--Header-->
 
     <div class="scroll-container">
 
@@ -293,47 +296,44 @@
         </div>
     </div>
 
-    <div class="menu-footer">
-        <div class="container-fluid footer py-3">
-            <div class="row">
-                <div class="col-lg footer-text">
-                    <h5 class="text-center">Lodi</h5>
-                    <p class="text-center">235 Lakewood Mall, Lodi, CA 95242</p>
-                    <p class="text-center">(209) 368-3888</p>
-                    <p class="text-center">Tues - Sat 11am-2:30pm (Lunch),</p>
-                    <p class="text-center">5pm-9pm (Dinner)</p>
-                </div>
-                <div class="col-lg footer-text">
-                    <h5 class="text-center">Stockton</h5>
-                    <p class="text-center">4755 Quail Lakes Dr, Stockton, CA, 95207 </p>
-                    <p class="text-center">(209) 952-0688</p>
-                    <p class="text-center">Mon - Sat 11am-2:30pm (Lunch),</p>
-                    <p class="text-center"> 5pm-9pm (Dinner)</p>
-                </div>
-                <div class="col-lg footer-text">
-                    <h5 class="text-center">Discovery Bay</h5>
-                    <p class="text-center">14870 CA-4, Discovery Bay, CA, 94505</p>
-                    <p class="text-center">(925) 516-6298</p>
-                    <p class="text-center">Tues - Sun 11:30am-9pm</p>
-                </div>
-                <div class="col-lg footer-text">
-                    <h5 class="text-center">Tracy</h5>
-                    <p class="text-center">835 S Tracy Blvd, Tracy, CA 95376</p>
-                    <p class="text-center">(209) 836-5888</p>
-                    <p class="text-center">Mon, Wed - Sun, 11:30am - 9pm</p>
-                </div>
-                <div class="col-lg footer-text">
-                    <h5 class="text-center">Galt</h5>
-                    <p class="text-center">10420 Twin Cities Rd, Galt, CA </p>
-                    <p class="text-center">95632 (209) 251-7652</p>
-                    <p class="text-center">Mon, Wed - Sun, 11:30am - 9pm</p>
-                </div>
-            </div>
-            <div class="row">
-                <h5 class="text-center">Copyright 2015 <b>MATSUYAMA RESTAURANT</b></h5>
-            </div>
+    <main class="container-fluid footer text-center ">
+        <div class="row px-4">
+        <div class="col-lg footer-text">
+          <p class="size16 py-3">Lodi</p>
+          <p class="size14">235 Lakewood Mall, Lodi, CA <br> 95242 (209) 368-3888<br>
+            Tues - Sat 11am-2:30pm (Lunch),<br> 5pm-9pm (Dinner)</p>
         </div>
-    </div>
+        <div class="col-lg footer-text">
+          <p class="size16 py-3">Stockton</p>
+          <p class="size14">4755 Quail Lakes Dr, Stockton,<br> CA, 95207 (209) 952-0688<br>
+            Mon - Sat 11am-2:30pm (Lunch),<br> 5pm-9pm (Dinner)</p>
+        </div>
+        <div class="col-lg footer-text">
+          <p class="size16 py-3">Discovery Bay</p>
+          <p class="size14">14870 CA-4, Discovery Bay, CA,<br> 94505 (925) 516-6298<br>
+            Tues - Sun 11:30am-9pm</p>
+        </div>
+        <div class="col-lg footer-text">
+          <p class="size16 py-3">Tracy</p>
+          <p class="size14">835 S Tracy Blvd, Tracy, CA 95376<br>
+            (209) 836-5888<br>
+            Mon, Wed - Sun, 11:30am - 9pm</p>
+        </div>
+        <div class="col-lg footer-text">
+          <p class="size16 py-3">Galt</p>
+          <p class="size14">10420 Twin Cities Rd, Galt, CA<br> 95632 (209) 251-7652<br>
+            Mon, Wed - Sun, 11:30am - 9pm</p>
+        </div>
+      </div>
+      <div class="row text-center size16">
+        <p class="cText"><br>
+          <img class="FBimage" src="../assets/Facebook 1.png" alt="Facebook Account">
+          Copyright 2015 MATSUYAMA RESTAURANT
+          
+        </p>
+  
+      </div>
+      </main>
 
 
 
