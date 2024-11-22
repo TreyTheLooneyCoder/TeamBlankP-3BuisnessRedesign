@@ -45,6 +45,10 @@
     font-size: 20px;
 }
 
+.size30{
+    font-size: 30px;
+}
+
 .size36{
     font-size: 36px;
 }
@@ -83,6 +87,15 @@
     width: 258px;
     height: 54px;
     color: white;
+}
+
+.hero1{
+    position: absolute;
+    background-color: #00000090; 
+    width: 926px;
+    height: 662;
+    top: 151px;
+    left: 40px;
 }
 
 .topnav{
@@ -125,7 +138,7 @@ footer{
 }
 
 .cText{
-    padding-left: 40px;
+    padding-left: 60px;
 }
 
 /* Images S */
@@ -136,9 +149,16 @@ footer{
     object-fit: cover;
 }
 
+.heroI{
+    width: 768px;
+    height: 555px;
+    object-fit: cover;
+    margin: 19px;
+}
+
 .FBimage{
-    width: 20px;
-    height: 33px;
+    width: auto;
+    height: auto;
     float: right;
     padding-right: 40px;
     
