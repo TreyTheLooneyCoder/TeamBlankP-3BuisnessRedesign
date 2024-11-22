@@ -81,11 +81,12 @@
 .specials-container{
     background-color: #00000090; 
     inline-size: 95%;
+
 }
 
 .specials-images{
 
-    height: 280px;
+    height: 80%;
     width: 70%;
     overflow: hidden;
     padding-inline: 20px;
@@ -112,8 +113,8 @@ h4, h5, p {
 
 .footer {
     background-color: #823F00;
-    position:fixed;
-    bottom:0;
+    margin-top: auto;
+    
 }
 
 
