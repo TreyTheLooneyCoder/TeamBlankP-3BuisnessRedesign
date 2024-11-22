@@ -442,6 +442,7 @@ h4, h5, p {
         padding-top: 5%;
         padding-bottom: 5%;
     }
+
     .menu-anchors {
         display: flex;
         flex-direction: column;
@@ -454,12 +455,21 @@ h4, h5, p {
         position:absolute;
         top: 1720px;
     }
+
+    .nav-response {
+        width: 500px;
+        align-items: end;
+    }
     
 }
 
 @media screen and (max-width: 800px) {
     .scroll-container {
         top: 800px;
+    }
+
+    .nav-font {
+        font-size: 25px;
     }
     
     .for-menu-respose {
@@ -509,7 +519,7 @@ h4, h5, p {
     .scroll-container {
         top: 645px;
     }
-
+    
     .menu-footer {
         top: 1555px;
     }
@@ -520,6 +530,7 @@ h4, h5, p {
 
     .scroll-container {
         top: 610px;
+        margin-right: 0%;
     }
 
     .menu-footer {
@@ -529,23 +540,17 @@ h4, h5, p {
 
 @media screen and (max-width: 450px) {
     .scroll-container {
-        top: 600px;
-    }
-
-    .for-menu-respose {
-        margin-top: 14%;
+        top: 635px;
     }
 
     .menu-footer {
-        top: 1510px;
+        top: 1550px;
     }
-
-
 }
 
 @media screen and (max-width: 400px) {
-    .after-400px {
-        font-size: 30px;
+    .nav-font {
+        font-size: 25px;
     }
 
     .scroll-container {
@@ -562,10 +567,6 @@ h4, h5, p {
 }
 
 @media screen and (max-width: 350px) {
-    .after-400px {
-        font-size: 25px;
-    }
-
     .scroll-container {
         top: 520px;
     }
