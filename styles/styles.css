@@ -33,14 +33,6 @@
 
 /* Font sizes Start */
 
-.size14{
-    font-size: 14px;
-}
-
-.size16{
-    font-size: 16px;
-}
-
 .size20{
     font-size: 20px;
 }
@@ -81,6 +73,7 @@
     align-content: center;
 }
 .delivainer{
+    
     position: absolute;
     top: 10px;
     right: 75px;
@@ -105,7 +98,7 @@
     gap: 352px;
     color: white;
     background-color: #823F00;
-    height: 100%;
+    height: 34px;
     overflow: hidden;
 }
 
@@ -312,7 +305,85 @@ h4, h5, p {
     margin: 0px;
 }
 
+.color-red {
+    color: #FF1500;
+}
 
+@media screen and (max-width: 1000px) {
+    
+    .at-1000-px {
+        margin-left: 100px;
+        margin-right: 0px;
+    }
+
+    .containerHead{
+        text-align: start;
+    }
+
+    .delivainer{
+        top: 10px;
+        right: 10px;
+    }
+
+    .menu-body {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 5% 1fr 1fr 10%;
+        background-image: none; 
+        background-repeat: no-repeat; 
+        background-size: 0%;
+        background-color: black;
+    }
+    
+    .menu-nav {
+        grid-row: 1;
+        grid-column: 1;
+    }
+    
+    .scroll-container {
+        grid-row: 3;
+        grid-column: 1 / 2; 
+        margin-top: 0%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        margin-bottom: 1.5%;
+        height: 900px;
+        width: 95%;
+        padding: 2%;
+        position: absolute;
+        top: 810px;
+    }
+    
+    .our-menu { 
+        grid-row: 2;
+        grid-column: 1 / 2;
+        margin-top: 0%;
+        margin-left: 10%;
+        margin-bottom: 0%;
+        width: 80%;
+        height: 100%;
+    }
+    
+    .for-menu-respose {
+        background-image: url(../assets/bamboo.webp);
+        background-repeat: no-repeat;
+        margin-top: 0%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .menu-anchors {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .menu-footer {
+        grid-row: 4;
+        grid-column: 1 / 2;
+        position:absolute;
+        top: 1720px;
+    }
+    
+}
 
 /* Menu Page CSS End */
-
