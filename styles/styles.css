@@ -182,9 +182,9 @@ footer{
 @media screen and (max-width: 426px) {
    
     .hero1{
-        position: absolute;
+        
         background-color: #292929CC; 
-        margin-left: -40px;
+        
         width: 425px;
         height: 503px;
         top: 173px;
@@ -241,6 +241,18 @@ footer{
         width: 106px;
         height: 70px;
         color: white;
+    }
+
+    .container-black{
+        display: fluid;
+        background-color: black;
+    }
+
+    .scroll-container2 {
+        width: 100%;
+        height: auto;
+        
+        top: 560px;
     }
 
 
@@ -344,6 +356,8 @@ h4, h5, p {
 }
 
 .scroll-container2 {
+    grid-row: 2;
+    grid-column: 1; 
     margin-top: 3%;
     margin-left: 3%;
     margin-right: 10%;
@@ -375,6 +389,11 @@ h4, h5, p {
 }
 
 .our-menu2 { 
+    grid-row: 2 / 3;
+    grid-column: 2;
+    margin-top: 3%;
+    margin-left: 30%;
+    margin-right: 2.5%;
     text-align: left;
     width: 20%;
     height: 20%;
@@ -448,6 +467,16 @@ h4, h5, p {
     }
     
     .our-menu { 
+        grid-row: 2;
+        grid-column: 1 / 2;
+        margin-top: 2%;
+        margin-left: 10%;
+        margin-bottom: 5%;
+        width: 80%;
+        height: 90%;
+    }
+
+    .our-menu2 { 
         grid-row: 2;
         grid-column: 1 / 2;
         margin-top: 2%;
