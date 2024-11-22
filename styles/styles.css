@@ -4,7 +4,8 @@
 }
 
 .body-background{
-    
+    background-image: url('../assets/bamboo.webp');
+    background-size: cover;
 }
 
 .flex-container{
@@ -46,17 +47,14 @@
     align-content: center;
 }
 
-<<<<<<< HEAD
 .containerNav{
     font-family: 'Inter Variable', 'sans-serif';
     color: white;
     text-align: center;
     max-width: 100%;
-    height: 34px;
     background-color: #823F00;
     align-content: center;
 }
-=======
 .delivainer{
     position: absolute;
     top: 10px;
@@ -66,13 +64,22 @@
     color: white;
 }
 
-.navbar {
-    margin-top: -10px;
+.specials-container{
+    background-color: #00000090; 
 }
 
-.container-fluid{
-    background-color: #823F00;
-    height: 34px;
-    align-content: start;
+.specials-images{
+
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+    padding-inline: 20px;
 }
->>>>>>> 8d51e6c87cc7647b07959edcb820a1fe61ab11f4
+
+.specials-images img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
