@@ -95,12 +95,10 @@
 }
 
 .hero1{
-    position: absolute;
+    
     background-color: #292929CC; 
     width: 926px;
     height: 662px;
-    top: 151px;
-    left: 40px;
 }
 
 .hero2{
@@ -347,7 +345,23 @@ h4, h5, p {
     padding: 5%;
 }
 
+.scroll-container2 {
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    height: 662px;
+    width: 926px;
+    overflow-y: auto;
+    background-color: rgba(43, 42, 42, 0.801);
+    
+}
+
 .scroll-container::-webkit-scrollbar {
+    display: none;
+}
+
+.scroll-container2::-webkit-scrollbar {
     display: none;
 }
 
@@ -362,10 +376,18 @@ h4, h5, p {
     background-color: rgba(43, 42, 42, 0.801);
 }
 
+.our-menu2 { 
+    text-align: left;
+    width: 20%;
+    height: 20%;
+    background-color: rgba(43, 42, 42, 0.801);
+}
+
 .menu-anchors {
+    padding: 2%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
 }
 
 .menu-footer {
