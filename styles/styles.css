@@ -290,11 +290,6 @@ h4, h5, p {
 }
 
 @media screen and (max-width: 1000px) {
-    
-    .at-1000-px {
-        margin-left: 100px;
-        margin-right: 0px;
-    }
 
     .containerHead{
         text-align: start;
@@ -319,7 +314,6 @@ h4, h5, p {
     .menu-nav {
         grid-row: 1;
         grid-column: 1;
-        max-width: 800px;
     }
     
     .scroll-container {
@@ -339,11 +333,11 @@ h4, h5, p {
     .our-menu { 
         grid-row: 2;
         grid-column: 1 / 2;
-        margin-top: 0%;
+        margin-top: 2%;
         margin-left: 10%;
-        margin-bottom: 0%;
+        margin-bottom: 5%;
         width: 80%;
-        height: 100%;
+        height: 90%;
     }
     
     .for-menu-respose {
@@ -369,85 +363,150 @@ h4, h5, p {
 }
 
 @media screen and (max-width: 800px) {
-    .at-1000-px {
-        margin-left: 100px;
-        margin-right: 0px;
-        max-width: 50%;
-    }
-
-    .containerHead{
-        text-align: start;
-        max-width: 80%;
-    }
-
-    .topnav{
-        max-width: 80%;
-    }
-
-    .delivainer{
-        top: 10px;
-        right: 10px;
-    }
-
-    .menu-body {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 5% 1fr 1fr 10%;
-        background-image: none; 
-        background-repeat: no-repeat; 
-        background-size: 0%;
-        background-color: black;
-        max-width: 800px;
-    }
-    
-    .menu-nav {
-        grid-row: 1;
-        grid-column: 1;
-    }
-    
     .scroll-container {
-        grid-row: 3;
-        grid-column: 1 / 2; 
-        margin-top: 0%;
-        margin-left: 2.5%;
-        margin-right: 2.5%;
-        margin-bottom: 1.5%;
-        height: 900px;
-        width: 85%;
-        padding: 2%;
-        position: absolute;
-        top: 810px;
-    }
-    
-    .our-menu { 
-        margin-top: 0%;
-        margin-left: 10%;
-        margin-bottom: 0%;
-        width: 80%;
-        height: 100%;
+        top: 800px;
     }
     
     .for-menu-respose {
-        background-image: url(../assets/bamboo.webp);
-        background-repeat: no-repeat;
         margin-top: 4%;
-        padding-top: 5%;
-        padding-bottom: 5%;
-        width: 80%;
-    }
-    .menu-anchors {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
     
     .menu-footer {
-        grid-row: 4;
-        grid-column: 1 / 2;
-        position:absolute;
+
         top: 1720px;
     }
 
 }
 
+@media screen and (max-width: 700px) {    
+    .scroll-container {
+        top: 730px;
+    }
+    
+    .for-menu-respose {
+        margin-top: 4%;
+    }
+    
+    .menu-footer {
+
+        top: 1650px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .scroll-container {
+        top: 660px;
+    }
+    
+    .for-menu-respose {
+        margin-top: 8%;
+    }
+    
+    .menu-footer {
+        top: 1580px;
+    }
+
+    .menu-nav-response {
+        padding-left: 40px;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+
+    .scroll-container {
+        top: 645px;
+    }
+
+    .menu-footer {
+        top: 1555px;
+    }
+
+    .menu-nav-response {
+        padding-left: 75px;
+    }  
+}
+
+@media screen and (max-width: 500px) {
+
+    .scroll-container {
+        top: 610px;
+    }
+
+    .menu-footer {
+        top: 1520px;
+    }
+
+    .menu-nav-response {
+        padding-left: 130px;
+        font-size: 12px;
+    }  
+}
+
+@media screen and (max-width: 450px) {
+    .scroll-container {
+        top: 600px;
+    }
+
+    .for-menu-respose {
+        margin-top: 14%;
+    }
+
+    .menu-footer {
+        top: 1510px;
+    }
+
+    .menu-nav-response {
+        padding-left: 170px;
+        font-size: 10px;
+    }   
+}
+
+@media screen and (max-width: 400px) {
+    .after-400px {
+        font-size: 30px;
+    }
+
+    .scroll-container {
+        top: 560px;
+    }
+
+    .for-menu-respose {
+        margin-top: 14%;
+    }
+
+    .menu-footer {
+        top: 1470px;
+    }
+
+    .menu-nav-response {
+        padding-left: 170px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .after-400px {
+        font-size: 25px;
+    }
+
+    .scroll-container {
+        top: 520px;
+    }
+
+    .for-menu-respose {
+        margin-top: 14%;
+    }
+
+    .menu-footer {
+        top: 1430px;
+    }
+
+    .menu-nav-response {
+        padding-left: 170px;
+        font-size: 10px;
+    }
+    
+}
 /* Menu Page CSS End */
