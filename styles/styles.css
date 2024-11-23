@@ -355,25 +355,7 @@ h4, h5, p {
     padding: 5%;
 }
 
-.scroll-container2 {
-    grid-row: 2;
-    grid-column: 1; 
-    margin-top: 3%;
-    margin-left: 3%;
-    margin-right: 10%;
-    margin-bottom: 5%;
-    height: 662px;
-    width: 926px;
-    overflow-y: auto;
-    background-color: rgba(43, 42, 42, 0.801);
-    
-}
-
 .scroll-container::-webkit-scrollbar {
-    display: none;
-}
-
-.scroll-container2::-webkit-scrollbar {
     display: none;
 }
 
@@ -385,18 +367,6 @@ h4, h5, p {
     margin-right: 2.5%;
     width: 60%;
     height: 50%;
-    background-color: rgba(43, 42, 42, 0.801);
-}
-
-.our-menu2 { 
-    grid-row: 2 / 3;
-    grid-column: 2;
-    margin-top: 3%;
-    margin-left: 30%;
-    margin-right: 2.5%;
-    text-align: left;
-    width: 20%;
-    height: 20%;
     background-color: rgba(43, 42, 42, 0.801);
 }
 
@@ -467,16 +437,6 @@ h4, h5, p {
     }
     
     .our-menu { 
-        grid-row: 2;
-        grid-column: 1 / 2;
-        margin-top: 2%;
-        margin-left: 10%;
-        margin-bottom: 5%;
-        width: 80%;
-        height: 90%;
-    }
-
-    .our-menu2 { 
         grid-row: 2;
         grid-column: 1 / 2;
         margin-top: 2%;
